@@ -4,7 +4,6 @@ import {AiOutlineArrowRight} from "react-icons/ai";
 import { FaGithub, FaLinkedin } from "react-icons/fa";
 import { SiGmail } from "react-icons/si";
 import { AiOutlineTwitter } from "react-icons/ai";
-import { GrInstagram } from "react-icons/gr";
 import { BsFillPersonLinesFill } from "react-icons/bs";
 import { Link } from "react-scroll";
 const Home = () => {
@@ -43,13 +42,6 @@ href:'https://drive.google.com/file/d/1dJTi6sFWs4ij2hys77IFc7peo6NbWd8t/view?usp
 </>
 ),
 href:'https://twitter.com/Nived2002',
-},
-{id:6,child:(
-<>
-<GrInstagram size={30}/>
-</>
-),
-href:'https://www.instagram.com/_nived.n/?hl=en',
 },
 ];
   return (
