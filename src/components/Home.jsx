@@ -5,7 +5,6 @@ import { FaGithub, FaLinkedin } from "react-icons/fa";
 import { SiGmail } from "react-icons/si";
 import { AiOutlineTwitter } from "react-icons/ai";
 import { GrInstagram } from "react-icons/gr";
-import { RiFacebookCircleFill } from "react-icons/ri";
 import { BsFillPersonLinesFill } from "react-icons/bs";
 import { Link } from "react-scroll";
 const Home = () => {
@@ -52,13 +51,6 @@ href:'https://twitter.com/Nived2002',
 ),
 href:'https://www.instagram.com/_nived.n/?hl=en',
 },
-{id:7,child:(
-    <>
-    <RiFacebookCircleFill size={30}/>
-    </>
-    ),
-    href:'https://www.facebook.com/people/Nived-Narayanan/100012495019723/',
-  },
 ];
   return (
     <div
